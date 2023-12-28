@@ -1,0 +1,357 @@
+html {
+ padding-right: 10px;
+
+}
+
+body {
+  background: linear-gradient(45deg, rgb(133, 95, 150), rgb(17, 46, 69));
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  display: block;
+  top: 0px;
+  background-color: rgb(245, 88, 88);
+  z-index: 9;  
+  min-width: 850px;
+  font-family: OCR A Std, monospace; 
+  padding-left: 20%;
+  padding-right:20%;
+}
+
+.ando-placment { 
+  align-items: center;
+  
+}
+
+.border-box {
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 5%;
+  width: 550px;
+  height: 350px;
+  background-color: rgb(245, 88, 88);
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  justify-content: center;
+  z-index: 1;
+  border-radius: 10%;
+}
+
+#border-items {
+  width: 20%%px;
+  height:20px;
+  margin: auto;
+  padding: 20%;
+  background-color: rgb(250, 127, 138);
+  border-radius: 15%;
+  color: rgb(245, 220, 222)
+
+}
+
+.pizza {
+  width: 0;
+  height: 0;
+  border-top: 100px solid transparent;
+  border-right: 300px solid rgb(191, 10, 46);
+  border-bottom: 100px solid transparent;
+  top: 172px;
+  left: 242px;
+  position: absolute;
+  transform: rotate(25deg);
+  border-radius: 5% 5% 5%;
+  z-index: 4;
+}
+
+.pizza2 {
+ /* red pizza level */
+  width: 0;
+  height: 0;
+  border-top: 95px solid transparent;
+  border-right: 295px solid rgb(252, 243, 73);
+  border-bottom: 95px solid transparent;
+  top: 170px;
+  left: 242px;
+  position: absolute;
+  transform: rotate(25.05deg);
+  border-radius: 5% 5% 5%;
+  z-index: 5;
+}
+
+.pizza3 {
+  width: 0;
+  height: 4;
+  border-top: 95px solid transparent;
+  border-right: 295px solid rgb(128, 67, 6);
+  border-bottom: 95px solid transparent;
+  top: 182px;
+  left: 242px;
+  position: absolute;
+  transform: rotate(25.5deg);
+  border-radius: 5% 5% 5%;
+  z-index: 3;
+}
+
+.crust {
+  width: 60px;
+  height: 200px;
+  background-color: rgb(128, 67, 6);
+  border-radius:35%;
+  position: absolute;
+  top: 234px;
+  left: 496px;
+  z-index: 6;
+  transform: rotate(24.999deg);
+}
+
+.crust2 {
+  width: 68px;
+  height: 96px;
+  background-color: rgb(128, 67, 6);
+  position: absolute;
+  top: 226px;
+  left: 520px;
+  z-index: 6;
+  transform: rotate(24.999deg);
+  border-radius: 100%;
+}
+
+
+.pep1 {
+  width: 25px;
+  height: 30px;
+  background-color: green;
+  position: absolute; 
+  top: 267px;
+  left: 370px;
+  z-index: 7;
+  transform: rotate(42deg);
+}
+
+
+
+.pep2 {
+  width: 25px;
+  height: 30px;
+  background-color: green;
+  position: absolute; 
+  top: 236px;
+  left: 418px;
+  z-index: 7;
+  transform: rotate(45deg);
+}
+
+.sausage1 {
+  position: absolute;
+  top: 10px;
+  
+}
+
+.sas1 {
+  width: 68px;
+  height: 96px;
+  background-color: rgb(232, 111, 134);
+  position: absolute;
+  top: 180px;
+  left: 320px;
+  border-radius: 100%;
+  z-index: 10; 
+  transform: rotate(90deg);
+}
+
+.sas11 {
+  width: 68px;
+  height: 96px;
+  background-color: rgb(150, 41, 48);
+  position: absolute;
+  top: 185px;
+  left: 320px;
+  border-radius: 100%;
+  z-index: 9; 
+  transform: rotate(90deg);
+}
+
+.sausage2 {
+  position: absolute;
+  top: 55px;
+  left: -22px;
+  transform: rotate(-5deg);
+  z-index: 10;  
+}
+
+.sas2 {
+  width: 68px;
+  height: 96px;
+  background-color: rgb(232, 111, 134);
+  position: absolute;
+  top: 260px;
+  left: 400px;
+  border-radius: 100%;
+  z-index: 10; 
+  transform: rotate(90deg);
+}
+
+.sas22 {
+  width: 68px;
+  height: 96px;
+  background-color: rgb(150, 41, 48);
+  position: absolute;
+  top: 265px;
+  left: 400px;
+  border-radius: 100%;
+  z-index: 9; 
+  transform: rotate(90deg);
+}
+
+
+.onion1 {
+  position: absolute;
+  top: 230px;
+  left: 505px;  
+  transform: rotate(75deg);
+  z-index: 7;
+}
+
+.oni11 {
+  width: 55px;
+  height: 65px;
+  background-color: purple;
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 7;
+   
+}
+
+.oni111 {
+  width: 45px;
+  height: 65px;
+  background-color: pink;
+  top: 3px;
+  left:3.2px;
+  position: absolute;
+  border-radius: 100%;
+  z-index: 8; 
+   
+}
+
+.oni1111 {
+  width: 35px;
+  height: 55px;
+  background-color: rgb(252, 243, 73);
+  top: 10px;
+  left: 11px;
+  position: absolute;
+  border-radius: 100%;
+  transform: rotate(.5deg);
+  z-index: 8;  
+}
+
+
+#pizza-mobile {
+  animation: pizza-mobileAnimation 6s linear infinite;
+  position: absolute;
+  top: -30px;
+  left: 70px;
+  z-index: 10;
+  
+}
+
+@keyframes pizza-mobileAnimation {
+  0% {
+    transform: translate(0, 0);
+  }
+  50%{
+    transform: translateX(730px);
+  }
+  /*75%{
+    transform: translateY(400px);
+  }*/
+  100%{
+    transform: translate(730px, 400px);
+  }
+}
+
+
+
+
+.garbagecan1 {
+  width: 500px;
+  height: 250px;
+  background-color: grey;
+  top: 65%;
+  left: 74%;
+  position: absolute;
+  z-index: 1;
+  border-radius: 100%
+
+}
+
+.garbagecan2 {
+  width: 500px;
+  height: 138px;
+  background-color: black;
+  top: 85%;
+  left: 74%;
+  position: absolute;
+  z-index: 1.1;
+}
+
+#no_pizza {
+  position: absolute;
+  top: 58%;
+  left: 75%;
+  animation: flashAnimation 6s linear infinite;
+  z-index: 12;
+}
+
+@keyframes flashAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+  }
+
+}
+
+.no_pizza1 {
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at center, transparent 45%, #FF0000 45.1%);
+  position: absolute;
+  z-index: 12; 
+  border-radius: 100%;
+}
+
+.no_pizza2 {
+  top: 60px;
+  left: 155px;
+  width: 75px;
+  height: 300px;
+  background-color: red;
+  transform: rotate(25.05deg);
+  position: absolute;
+  z-index: 12; 
+}
+
+.no_pizza3 {
+  
+
+}
